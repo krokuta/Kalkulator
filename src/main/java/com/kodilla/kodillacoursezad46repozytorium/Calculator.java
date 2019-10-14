@@ -1,15 +1,15 @@
 package com.kodilla.kodillacoursezad46repozytorium;
 
 public class Calculator {
-    double add;
-    double sub;
 
     public void adding(double a, double b){
+        double add;
         add = a + b;
         System.out.println(add);
     }
 
     public void subtracting(double a, double b) {
+        double sub;
         sub = a - b;
         System.out.println(sub);
     }
